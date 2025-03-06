@@ -2,7 +2,9 @@ import React from 'react';
 
 
 const currentYear = new Date().getFullYear();
-const Footer = () => {
+
+export default function Footer(){ 
+
   return (
     <footer className="bg-gray-900 text-white py-8">
       <div className="container mx-auto px-4">
@@ -40,5 +42,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
